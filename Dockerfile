@@ -8,6 +8,7 @@ USER root
 ###
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+		rsync \
 		bzip2 \
 		unzip \
 		xz-utils \
